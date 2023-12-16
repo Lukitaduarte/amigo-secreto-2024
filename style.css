@@ -26,7 +26,7 @@ h1 img {
 h1 .header {
   font-family: "Press Start 2P", cursive;
   text-transform: uppercase;
-  font-size: 1.2em;
+  font-size: 1.8em;
   margin: 0;
   padding: 0;
   color: white;
@@ -35,7 +35,7 @@ h1 .header {
 }
 h1 .description {
   font-family: "Press Start 2P", cursive;
-  font-size: 0.25em;
+  font-size: 0.6em;
   text-align: center;
   width: 50%;
   margin: 1em auto;
@@ -73,7 +73,7 @@ ul li.click:not(.active):not(.visited):before {
   white-space: pre-wrap;
   text-align: center;
   font-family: "Press Start 2P", cursive;
-  font-size: 0.7em;
+  font-size: 1em;
   font-weight: bold;
   left: calc(0px - 1em);
   width: 5em;
@@ -131,6 +131,7 @@ ul li.active .overlay {
   left: calc(50% - 6em);
   min-width: 10em;
   max-width: 10em;
+  font-size: 2em;
   text-align: center;
   white-space: normal;
   background: #de5918;
@@ -156,10 +157,10 @@ ul li.active a {
 
 ul li a {
   display: block;
-  width: 2em;
-  height: 2em;
+  width: 3em;
+  height: 3em;
   background: url(https://pixelartmaker-data-78746291193.nyc3.digitaloceanspaces.com/image/1d3110dedd750a9.png) no-repeat;
-  background-size: 2em;
+  background-size: 3em;
   cursor: pointer;
   border: 2px solid transparent;
   margin-bottom: 4em;
@@ -172,8 +173,8 @@ ul li a:hover {
   background: url(https://pixelartmaker-data-78746291193.nyc3.digitaloceanspaces.com/image/4717f552c59c347.png) no-repeat;
   background-size: 2.5em;
   display: block;
-  width: 2.5em;
-  height: 2.3em;
+  width: 2.8em;
+  height: 2.5em;
   position: fixed;
   bottom: 20vh;
   left: calc(50% - 1.25em);
@@ -347,12 +348,12 @@ time {
 
 .coin {
   background: url(https://pixelartmaker-data-78746291193.nyc3.digitaloceanspaces.com/image/ffe952392545e39.png) no-repeat;
-  background-size: 1.5em;
+  background-size: 1.8em;
   position: absolute;
-  width: 2.1em;
-  height: 2.1em;
+  width: 3em;
+  height: 3em;
   animation: coin 1.5s ease-in-out 0s infinite normal forwards;
-  top: -2.5em;
+  top: -3em;
   background-position: center;
 }
 
